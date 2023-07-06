@@ -58,15 +58,50 @@
 }
 .about{
     text-align: center;
-    margin: 10px 0px;
-    margin-bottom: 25px;
+    padding: 25px;
+    font-size: 35px;
 }
 .about-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
+
 }
 .writting2{
     margin-bottom: 15px;
 }
-.btn2
+.btn2{
+    margin-top: 15px;
+}
+.box{
+    height: 310px;
+    width: 240px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    box-shadow: 4px 4px 25px gray;
+    border-radius: 10px;
+}
+.icon{
+    width: 80px;
+    margin-top: 10px;
+}
+.btn3{
+    background-color: grey;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.parent-div{
+    background-image: url(images/background.png),linear-gradient(45deg,#1a1919,#000)
+}
+.service{
+    color: white;
+}
+.footer{
+    text-align: center;
+}

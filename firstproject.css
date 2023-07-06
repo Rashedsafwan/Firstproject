@@ -23,3 +23,50 @@
 .menulist{
     margin-left: 15px;
 }
+.banner{
+    width: 300px;
+}
+.maincontainer{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url("/images/background.png"),linear-gradient(45deg,#111010,#000)
+}
+.btn{
+    background-color: red;
+    /* border-radius: 5px; */
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+}
+.h1{
+    font-size: 35px;
+}
+.bannerpg{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color:blueviolet;
+    cursor: pointer;
+}
+.pic-section{
+    width: 250px;
+    height: 250px;
+}
+.about{
+    text-align: center;
+    margin: 10px 0px;
+    margin-bottom: 25px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.writting2{
+    margin-bottom: 15px;
+}
+.btn2

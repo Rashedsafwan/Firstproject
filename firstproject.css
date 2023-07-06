@@ -4,11 +4,14 @@
 }
 .navcontainer{
     display: flex;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     color: white;
     justify-content: space-around;
     align-items: center;
     
+}
+.logodiv{
+    padding: 10px;
 }
 .logo{
     width: 200px;
@@ -16,5 +19,7 @@
 .menu{
     display: flex;
     list-style: none;
-    margin-left: 25px;
+}
+.menulist{
+    margin-left: 15px;
 }
